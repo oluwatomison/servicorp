@@ -1,0 +1,58 @@
+@font-face {
+font-family: myFirstFont;
+src:url(Sansation/sansation_bold.woff);
+}
+
+body{
+	width: 99%;
+}
+a:link {
+	text-decoration: none;
+	color: #000;
+}
+
+#header {
+	height: 100px;
+	background-color: mediumseagreen;
+	margin: 5px;
+	color: white;
+}
+
+ #picture_Slide{
+ 	min-height: 100px;
+ 	margin: 5px;
+ 	overflow: auto;
+}
+
+ #content{
+ 	min-height: 100px;
+ 	margin: 5px;
+ 	overflow: auto;
+ }
+
+#contact {
+	height: 50px;
+	text-align: right;
+	background-color: seagreen;
+}
+
+#footer{
+ 	height: 50px;
+ 	background-color: seagreen;
+ }
+
+ #home_content {
+	background: white;
+	font-size: 20px;
+	height: 150px;
+	width: 200px;
+	float: left;
+	border-width: medium;
+	margin-left: 60px;
+	border: medium;
+	border-color: green;
+	border-style: ridge;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	text-align:center;
+}
